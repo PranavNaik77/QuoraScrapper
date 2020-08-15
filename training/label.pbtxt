@@ -1,8 +1,0 @@
-item {
-	id=1
-	name: 'face_mask_found'
-}
-item {
-	id:2
-	name: 'face_mask_not_found'
-}
