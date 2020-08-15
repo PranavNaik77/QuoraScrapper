@@ -56,29 +56,6 @@ for topic in topics:
 	last_height = driver.execute_script("return document.body.scrollHeight")
 	question_set = set()
 
-	# infinite while loop, break it when you reach the end of the page or not able to scroll further.
-#	while True:
-#		html_source = " "
-#		i = 0
-
-#		# try to scroll 20 times in case of slow connection
-#		while i < 20:
-
-			# Scroll down to one page length
-#			driver.execute_script("window.scrollBy(0, 1080);")
-
-			# Wait to load page
-#			time.sleep(SCROLL_PAUSE_TIME)
-
-			# get page height in pixels
-#			new_height = driver.execute_script("return document.body.scrollHeight")
-
-			# break this loop when you are able to scroll futher
-#			if new_height != last_height:
-#				break
-#			i += 1
-#			print(new_height)
-#			print(i)
 
 		# get html page source
 html_source = driver.page_source
